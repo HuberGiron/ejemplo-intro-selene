@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Práctica 4 | Ibero Puebla</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body class="d-flex flex-column h-100">
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <div class="container px-5">
+                    <a class="navbar-brand">Menu</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link" href="../">Home</a></li>                    
+                            <li class="nav-item"><a class="nav-link" href="../index.html#resumen">Acerca de mi</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../index.html#practicas">Prácticas</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Seccion TITULO de Portafolio-->
+            <header class="bg-primary py-2 mt-6">
+                <div class="container px-5">
+                    <div class="row gx-5 align-items-center justify-content-center">
+                        <div class="col-lg-8 col-xl-7 col-xxl-6">
+                            <div class="my-5 text-center text-xl-start">
+                                <h1 class="display-6 fw-bolder text-white mb-2">Portafolio de Actividades</h1>
+                                <h1 class="display-8 fw-bolder text-white mb-2">Introduccion a Ing. Mecatrónica</h1>
+                                <p id="resumen" class="display-8 fw-normal text-white-50 mb-4">Departamento de Ciencias e Ingenierías | Universidad Iberoamericana Puebla, México.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Seccion TITULO de la Práctica-->
+            <section class="py-3" id="scroll-target">
+                <div class="container px-5 my-2">
+                    <!-- Post header-->
+                    <header class="mb-4">
+                        <!-- Post title-->
+                        <h1 class="fw-bolder mb-1">Brazo Robótico</h1>
+
+                        <!-- ETIQUETA DE ALUMNO (Hacer una por cada alumno)-->
+                            <img class="img-fluid rounded-circle" width="50px" src="assets/kuromi.jpg" alt="..." />
+                            <div class="ms-2">
+                                <div class="fw-bold">Danna Paola García Sánchez y Selene Román Celis</div>
+                                <div class="text-muted">Ingeniería Mecatrónica</div>
+                            </div>
+                        <!--Aqui termina etiqueta de alumno-->
+
+                        <div class="text-muted fst-italic mt-2 mb-2">Fecha: Octubre 20, 2023</div>
+                        <!-- ETIQUETAS O TOPICOS IMPORTANTES DE LA PRACTICA-->
+                        <a class="badge bg-primary text-decoration-none link-light" >Arduino</a>
+                        <a class="badge bg-primary text-decoration-none link-light" >Electrónica</a>
+
+                    </header>
+                </div>
+            </section>
+
+            <!-- Seccion de CONTENIDO de la Práctica-->
+            <section>
+                <div class="container px-5">
+
+                    <figure class="mb-4" align= "center"><img class="img-fluid rounded" width="500px" src="img/brazo.jpeg" alt="..." /></figure>
+                                
+                    <p id="resumen">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Resumen -</h2>
+                        <p class="fs-6 mb-4">En esta práctica lo que realizamos fue un brazo robótico que funciona a través de 5 servomotores controlados por potenciómetros conectado a un protoboard y una placa arduino.  </p>
+                        
+                        <p id="intro">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Introducción -</h2>
+                        <p class="fs-6 mb-4">Un servomotor es un dispositivo similar a un motor de corriente continua que tiene la capacidad de ubicarse en cualquier posición dentro de su rango de operación, y mantenerse estable en dicha posición. </p>
+                        <p class="fs-6 mb-4">Lograr coordinar 5 servomotres nos permitirá poder controlar correctamente el brazo robótico y hacer distintas maniobras como levantar objetos y poder pasarlos de un brazo a otro.</p>
+                        
+                        <p id="materiales">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Materiales -</h2>
+                    
+                  <p class="fs-6 mb-4">-Servomotor.</p>
+                  <p class="fs-6 mb-4">-Arduino.</p>
+                  <p class="fs-6 mb-4">-Protoboard.</p>
+                  <p class="fs-6 mb-4">-Potenciómetro.</p>
+                  
+                        <p id="desarrollo">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Desarrollo -</h2>
+                        <p class="fs-6 mb-4"> Lo primero que hicimos fue realizar un boceto para visualizar bien como se iba a diseñar el brazo robótico. Al tener un prototipo realizamos por igual cada boceto de todas las piezas que se iban a necesitar para la construcción. Se procedió a realizar todas las piezas en CATIA.  
+                        </p><figure class="mb-4" align="center"><img class="img-fluid rounded" width="400px" src="img/catia.jpeg"  alt="..." /></figure>
+                  <figure class="mb-4" align="center"><img class="img-fluid rounded" width="300px" src="img/catia2.jpeg" alt="..." /></figure>
+                  
+                  <p class="fs-6 mb-4"> Después se llevaron al corte laser. Proseguimos con el ensamblado de todo para concectar los servomotores. Al ir realizando el ensamble algunas piezas del diseño original se fueron cambiando para mejoría del brazo. </p>
+                  <figure class="mb-4" align="center"><video width="30%"  controls>
+                      <source src="video/laser.mp4" type="video/mp4">
+                  </video></p></figure>
+                  <p class="fs-6 mb-4"> También hubo cambios en la colocación de los servomotores ya que se realizaron pruebas para verificar que cada servomotor cumpliera su función y algunos no funcionaban de la manera deseada. </p>
+                  
+                  <p class="fs-6 mb-4"> El circuito y el programa que realizamos para que funcionaran todos los servomotores los diseñamos en base a lo que aprendimos en la práctica 2 de arduino. Por último, concectamos todos los servomotores y realizamos las últimas pruebas para verificar que funcionara correctamente.</p>
+
+                        
+                            <p id="construccion">
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Construcción</h1>
+                            <p class="fs-6 mb-4">Para no tener problmas o errores con el brazo robótico se fueron probando uno por uno cada servomotor y verificar su funcionamiento.</p>
+                                         <p class="fs-6 mb-4">Base.- Lo primero que se verificó fue que la base lograra girar corrctamente en 180°.</p>
+                  <figure class="mb-4" align="center"><video width="30%"  controls>
+                      <source src="video/base.mp4" type="video/mp4">
+                  </video></p></figure>
+
+                  <p class="fs-6 mb-4">Brazo 1.- El primer brazo era lo más importante ya que iba a asegurar la gran movilidad de todo el brazo robótico.
+                  <figure class="mb-4" align="center"><video width="30%"  controls>
+                      <source src="video/brazo1.mp4" type="video/mp4">
+                  </video></p></figure></p>
+                  <p class="fs-6 mb-4">Brazo 2.- El segundo brazo nos iba a permitir tener más precisión al momento del alcance a cualquier objeto. </p>
+                  <figure class="mb-4" align="center"><video width="30%"  controls>
+                      <source src="video/brazo2.mp4" type="video/mp4">
+                  </video></p></figure>
+
+                  <p class="fs-6 mb-4">Base garra.- La base de la garra nos ayudaría para poder girar la garra a casi 360° lo que ayuda a ampliar la movilidad del brazo.</p>
+                  <figure class="mb-4" align="center"><video width="30%"  controls>
+                      <source src="video/basegarra.mp4" type="video/mp4">
+                  </video></p></figure>
+
+                  <p class="fs-6 mb-4">Garra .-La garra era uno de los elementos más importantes del brazo ya que si no funcionaba correctamente el agarre o giro podría dificultar su funcionamiento al momento de querer sostener cualquier objeto. </p>
+                  <figure class="mb-4" align="center"><video width="30%"  controls>
+                      <source src="video/garra.mp4" type="video/mp4">
+                  </video></p></figure>
+                    
+                            <p id="diseño">
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Diseño</h1>
+                            <p class="fs-6 mb-4">Se tuvo que diseñar el circuito completo que íbamos a utilizar con los 5 servomotores, para que cada uno se moviera con un potenciómetro diferente, lo cual se realiza de la siguiente manera, cada uno de los servos tienen 3 cables ( cable negro se conecta a negativo, cable rojo a positivo y cable naranja a un pin digital del Arduino), después se conectan los potenciómetros (terminal 1 a positivo, la de en medio a un pin analógico del Arduino y por ultimo la terminal 2 a negativo), después se conecta el pin de 5V a positivo al protoboard al igual que el pin de GND a negativo del protoboard, después se carga el programa al Arduino y se desconecta la computadora para conectar a la fuente. </p>
+                  <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/cbr.png" alt="..." /></figure>
+                  <p id="programa">
+                  <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Programa</h1>
+                  <p class="fs-6 mb-2">Realizar el código depende de donde colocaste los servos y los potenciómetros en el Arduino. </p>
+ <p class="fs-6 mb-2">#include <"Servo.h"> </p>
+                  <p class="fs-6 mb-2">int valor1; //Estas variables sirven para almacenar las lecturas analógicas</p>
+<p class="fs-6 mb-1">int valor2;</p>
+<p class="fs-6 mb-1">int valor3;</p>
+<p class="fs-6 mb-1">int valor4;</p>
+<p class="fs-6 mb-1">int valor5;</p>
+                  <p class="fs-6 mb-2">int pos1; //Las variables de posición son las que almacenan la posición del servomotor</p>
+<p class="fs-6 mb-1">int pos2;</p>
+<p class="fs-6 mb-1">int pos3;</p>
+<p class="fs-6 mb-1">int pos4;</p>
+<p class="fs-6 mb-1">int pos5;</p>
+                  <p class="fs-6 mb-2">//Le decimos al codigo que va a existir un servo</p>
+<p class="fs-6 mb-1">Servo myservo1;</p>
+<p class="fs-6 mb-1">Servo myservo2;</p>
+<p class="fs-6 mb-1">Servo myservo3;</p>
+<p class="fs-6 mb-1">Servo myservo4;</p>
+<p class="fs-6 mb-1">Servo myservo5;</p>
+                  <p class="fs-6 mb-1">void setup()
+{</p>
+                  <p class="fs-6 mb-1">Serial.begin(9600);</p>
+                  <p class="fs-6 mb-2">//Le decimos al codigo donde están conectados los servo</p>
+<p class="fs-6 mb-1">myservo1.attach(3);</p>
+<p class="fs-6 mb-1">myservo2.attach(5);</p>
+<p class="fs-6 mb-1">myservo3.attach(6);</p>
+<p class="fs-6 mb-1">myservo4.attach(9);</p>
+<p class="fs-6 mb-1">myservo5.attach(10);</p>
+                  <p class="fs-6 mb-1">}</p>
+                  <p class="fs-6 mb-1">void loop()
+{</p>
+                  <p class="fs-6 mb-2">// se lee el valor del potenciómetro </p>
+<p class="fs-6 mb-1">valor1 = analogRead(A0);</p>
+<p class="fs-6 mb-1">valor2 = analogRead(A1);</p>
+<p class="fs-6 mb-1">valor3 = analogRead(A2);</p>
+<p class="fs-6 mb-1">valor4 = analogRead(A3);</p>
+<p class="fs-6 mb-1">valor5 = analogRead(A4);</p>
+<p class="fs-6 mb-1">Serial.println(valor1);</p>
+<p class="fs-6 mb-1">Serial.println(valor2);</p>
+<p class="fs-6 mb-1">Serial.println(valor3);</p>
+<p class="fs-6 mb-1">Serial.println(valor4);</p>
+<p class="fs-6 mb-1">Serial.println(valor5);</p>
+                  <p class="fs-6 mb-2">//Convertimos el valor del potenciómetro a una posición que entienda el servo</p>
+<p class="fs-6 mb-1">pos1 = map(valor1, 0, 1023, 0, 360);</p>
+<p class="fs-6 mb-1">pos2 = map(valor2, 0, 1023, 0, 360);</p>
+<p class="fs-6 mb-1">pos3 = map(valor3, 0, 1023, 0, 360);</p>
+<p class="fs-6 mb-1">pos4 = map(valor4, 0, 1023, 0, 360);</p>
+<p class="fs-6 mb-1">pos5 = map(valor5, 0, 1023, 0, 360);</p>
+                  <p class="fs-6 mb-2">//Mandamos la posición a los servos </p>
+<p class="fs-6 mb-1">myservo1.write(pos1);</p>
+<p class="fs-6 mb-1">myservo2.write(pos2);</p>
+<p class="fs-6 mb-1">myservo3.write(pos3);</p>
+<p class="fs-6 mb-1">myservo4.write(pos4);</p>
+<p class="fs-6 mb-1">myservo5.write(pos5);</p>
+                  <p class="fs-6 mb-2">//esperamos un poco para que se mueva</p>
+                  <p class="fs-6 mb-2">//Delay nos ayuda a indicar el tiempo en el que nuestro servo va a comenzar a moverse </p>
+                  <p class="fs-6 mb-2">delay(10); }</p>
+ </p>
+                                    
+                        <p id="resultados">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Resultados -</h2>
+                          <p class="fs-6 mb-4">Cuando el brazo robótico estaba completo se realizó la última prueba que consistia en poder alzar una pelota.</p>
+                  <figure class="mb-4" align="center"><video width="30%"  controls>
+                      <source src="video/final.mp4" type="video/mp4">
+                  </video></p></figure>
+                  <p class="fs-6 mb-4">También realizamos una prueba con otro brazo para poder pasar la pelota entre los dos brazos. Ambas pruebas funcionaron correctamente.</p>
+                  <figure class="mb-4" align="center"><video width="30%"  controls>
+                      <source src="video/equipo.mp4" type="video/mp4">
+                  </video></p></figure>
+
+                        <p id="conclusiones">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Conclusiones -</h2>
+                        <p class="fs-6 mb-4">Realizar esta práctica nos sirvió para aprender más sobre el funcionamiento de Arduino y como utilizarlos de manera más elaborado al tener que controlar distintos servomotores.</p>
+                        <p class="fs-6 mb-4">También nos ayudó a tener una idea más clara de lo que es el funcionamiento de un brazo robótico ya que juntamos varios conocimientos que hemos ido adquiriendo a través del semestre, como lo es la porgramación, los circuitos, diseño por computadora, la construcción, el corte laser, etc.</p>
+
+
+                </div>
+            </section>
+
+            
+        </main>
+
+        <!-- Footer-->
+        <footer class="bg-dark py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Ingenierias-iberopuebla.mx 2023</div></div>
+                    <div class="col-auto">
+                        <a class="link-light small" href="#!">Privacy</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Terms</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
